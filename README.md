@@ -23,8 +23,8 @@ This project is a real-time fall detection system using a YOLO object detection 
 1. **Clone the repository**
 
    ```sh
-   git clone https://github.com/your-username/fall-detection.git
-   cd fall-detection
+   git clone https://github.com/vasanth2610/Person-Fall-Detector.git
+   cd Person-Fall-Detecto
    ```
 
 2. **Install dependencies**
@@ -35,7 +35,7 @@ This project is a real-time fall detection system using a YOLO object detection 
 
 3. **Download the YOLO model**
 
-   - Place your YOLO model file (`fall_det_1.pt`) in the project directory.
+   - Place your YOLO model file (`yolov10s.pt`) in the project directory.
 
 4. **Prepare the class list**
 
@@ -56,7 +56,7 @@ This project is a real-time fall detection system using a YOLO object detection 
 1. **Run the script**
 
    ```sh
-   python fall_detection.py
+   python pmain.py
    ```
 
 2. **Exit the program**
