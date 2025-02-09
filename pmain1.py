@@ -6,10 +6,10 @@ from twilio.rest import Client
 from deep_sort_realtime.deepsort_tracker import DeepSort
 
 # Twilio credentials
-account_sid = 'AC35ae97c5cd78e3b51c2b624a08f577d3'
-auth_token = '33bd3797651ee606d74e06c7ac4c67a1'
-twilio_number = '+12294944491'
-recipient_number = '+919345659196'
+account_sid = ''
+auth_token = ''
+twilio_number = ''
+recipient_number = your twilio number
 
 client = Client(account_sid, auth_token)
 
