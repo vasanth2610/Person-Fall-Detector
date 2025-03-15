@@ -20,10 +20,10 @@ with open("coco.txt", "r") as file:
     class_list = file.read().split("\n")
 
 # Twilio API credentials (replace with your Twilio details)
-TWILIO_ACCOUNT_SID = 'ACd7b8974f11c71399c2dc45175786a221'
-TWILIO_AUTH_TOKEN = '6902e2d94e2b2830cae57c2f6e2f0fa8'
-TWILIO_PHONE_NUMBER = '+17755219711'
-TO_PHONE_NUMBER = '+919345659196'
+TWILIO_ACCOUNT_SID = 'Acc sid'
+TWILIO_AUTH_TOKEN = 'auth'
+TWILIO_PHONE_NUMBER = 'twilio number'
+TO_PHONE_NUMBER = 'your number'
 
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
